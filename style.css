@@ -38,7 +38,7 @@
 }
 /*header*/
 .headermenu{
-	background-image: url(tunisia2.jpg);
+	background-image: url(tunisia2.JPG);
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-attachment: fixed;
@@ -198,7 +198,7 @@ border-radius: 2rem;
 	width: 350px; 
 	height: 350px; 
 	border-radius: 175px; 
-	background-image: url(milos.jpg);
+	background-image: url(milos.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
@@ -452,7 +452,7 @@ span.iconenew:hover{
     width: 350px; 
 	height: 350px; 
 	border-radius: 175px; 
-	background-image: url(marocdesert.jpg);
+	background-image: url(marocdesert.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
