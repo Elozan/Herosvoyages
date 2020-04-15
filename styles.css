@@ -1,0 +1,630 @@
+/*Navbar*/   
+
+.navbar{
+	background-color: #333652; 
+	font-family: arial; 
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: #FBE769;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color:#FBE767 ;
+}
+
+.custom-toggler.navbar-toggler{
+	color: white;
+}
+
+.navcolor{
+	background-color: #333652; 
+	font-family: arial; 
+	color: white;
+	border:none;
+}
+
+.navcolor:hover{
+	background-color:#333652;
+	color: #FBE769;
+}
+/*header*/
+.headermenu{
+	background-image: url(tunisia2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
+	color: white;
+	font-family: arial; 
+	min-height: 80vh;  
+}
+
+hr.mycar
+
+.headergrece{
+    background-image: url(milos3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
+	color: white;
+	font-family: arial; 
+	min-height: 80vh; 
+	margin-bottom: 0%; 
+}
+
+/*Contact*/  
+.headercontact{
+	background-image: url(contact2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
+	color: white;
+	font-family: arial; 
+	min-height: 80vh; 
+	margin-bottom: 0%; 
+}
+
+
+#contact .row{
+	min-height: calc(100vh - 50px);
+}
+
+
+.formContact{
+	margin-top: 5%;
+	margin-bottom: 0%;
+	color: white;
+	background-color: #F5EBE1;
+	padding: 2rem 1rem;
+}
+
+.logo{
+	width:20%; 
+	height:20%;
+	justify-content: right; 
+	float:right;
+}
+
+.agenceLyon{
+   width: 100%;
+   height: 100%;
+}
+
+.publi{
+	color: grey;
+	font-family: arial; 
+	font-size: x-large;
+}
+
+.form-control{
+	border:none;  
+}
+
+ .contactadresse{
+ 	font-family: arial; 
+ 	color:#676767;
+ }
+
+
+/*button*/
+.btn-group-lg>.btn, .btn-lg {
+border-radius: 2rem;
+}
+
+.btn-light {
+	color: white;
+	background-color: transparent;
+	border-color: white;
+}
+
+.btn-light:hover{
+	background-color: #FBE745; 
+	color: white;
+	border-color: #FBE745
+}
+
+
+.table td, .table th {
+	border-top: none;
+}
+
+.table thead th {
+	border-bottom:none;
+}
+
+.imagemenu{
+	height: 250px; 
+	width: 250px; 
+	border-radius: 90%; 
+	transition: all 0.2s ease-in-out;
+	-webkit-transform: scale(1)
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.imagemenu:hover{
+   -webkit-transform: scale(1.3);
+   transform: scale(1.3);
+}
+
+
+.imagemenu2{
+	height: 90px;
+	width: 90px; 
+	border-radius: 90px;
+
+}
+.imagemenugrece{
+	border-radius: 90%; 
+}
+
+/*grece*/ 
+
+ .grecesoffres{
+ 	background-color: #E5DCD3; 
+ }
+
+#cercle {
+	width: 350px; 
+	height: 350px; 
+	border-radius: 175px; 
+	background-image: url(santorininight.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color:white;
+	font-family: arial; 
+	font-size: 2em;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+#cercle2 {
+	width: 350px; 
+	height: 350px; 
+	border-radius: 175px; 
+	background-image: url(milos.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	position: relative;
+	font-family: arial; 
+	font-size: 2em; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle2:hover {
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+#cercle3{
+	width: 200px; 
+	height: 200px; 
+	border-radius: 100px; 
+	background-image: url(greceagence.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right; 
+	margin-left: 23%; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle3:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.grece{
+	background-color: #E5DCD3; 
+}
+
+.greceagency{
+	border:none; 
+	position: relative;
+}
+
+/*apropos*/
+.titrep{
+	color:#333652;
+	margin-left: 10%; 
+	font-weight: 500; 
+}
+
+.titrep2{
+	color: #FFBFBF;
+    font-family: arial;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.titrep3{
+	color:#FFBFBF; 
+	font-family: arial; 
+	font-weight: bold;
+}
+
+.titleconcept{
+	color:#333652; 
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+.h2, h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.titleagence{
+	color:#676060;
+	align-items: right;
+}
+
+.textepresentation{
+	font-family: arial; 
+	color:#676767;
+	margin-left: 10%; 
+	text-align: justify; 
+
+}
+
+.bloc1{
+    background-color: #FFF;
+}
+
+
+.Avis{
+	background-color: #E5DCD3; 
+	color: white;
+	font-family: arial; 
+	text-align: center; 
+}
+
+.texteavis{
+   color: grey;
+   font-family: arial; 
+}
+
+.display-4{
+	font-size: 3rem; 
+}
+
+span.avislogo{ 
+     color:#FBE769;
+     font-size: 2rem; 
+  }
+
+span.avisstars{
+	color:#FBE769;
+	font-size: 2rem; 
+}
+
+span.love{
+	font-family: arial; 
+	font-weight: bold; 
+}
+
+
+span.iconenew{
+	color: #999;
+	font-size: 2rem;
+	transition: all 0.2s ease-in-out;
+}
+span.iconenew:hover{
+	color:#FBE769;
+	text-decoration: none; 
+}
+
+.publi{
+	font-family: arial; 
+	color: #6A6767;
+}
+
+/*button*/
+.btn-warning {
+    color: white;
+    background-color: #FBE745;
+    border-color: #FBE769; 
+	
+}
+
+.btn-warning:hover {
+	color: white;
+	background-color: #FBE769; 
+	border-color: #FBE769;  
+}
+
+
+/*border*/
+
+.col-6{
+   border-radius: none; 
+}
+
+
+.titlegrece{
+	color: #333652;
+	font-family: arial; 
+	font-weight: bold; 
+}
+
+.textegrece{
+  	color: #676767;
+	font-family: arial; 
+}
+
+.textepromo{
+   color:#F98787;
+   font-weight: bold; 
+}
+
+.card-footer{
+	background-color: white;
+	border: none; 
+}
+
+
+.imagegrece{
+	background-color: #E5DCD3; 
+}
+
+.agencepre{
+	border:none;
+}
+
+/*offresMaroc*/
+
+.headermaroc{
+	background-image: url(essaouira7.jpg);
+	background-size: cover; 
+	background-attachment: fixed;
+	color: white;
+	font-family: arial; 
+	min-height: 80vh; 
+	margin-bottom: 0%;
+}
+
+#cercle4{
+	width: 200px; 
+	height: 200px; 
+	border-radius: 100px; 
+	background-image: url(agencemaroc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	margin-left: 23%; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle4:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+#cercle5{
+    width: 350px; 
+	height: 350px; 
+	border-radius: 175px; 
+	background-image: url(bivouac.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	position: relative;
+	font-family: arial; 
+	font-size: 2em; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle5:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+#cercle6{
+    width: 350px; 
+	height: 350px; 
+	border-radius: 175px; 
+	background-image: url(marocdesert.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	position: relative;
+	font-family: arial; 
+	font-size: 2em; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle6:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/*Egypteoffre*/
+
+.headeregypte{
+	background-image: url(egyptevoyage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
+	color: white;
+	font-family: arial; 
+	min-height: 80vh; 
+	margin-bottom: 0%;
+}
+
+
+#cercle7{
+	width: 200px; 
+	height: 200px; 
+	border-radius: 100px; 
+	background-image: url(agenceegypte.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right; 
+	margin-left: 23%; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle7:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+#cercle8{
+    width: 350px; 
+	height: 350px; 
+	border-radius: 175px; 
+	background-image: url(cairo2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	position: relative;
+	font-family: arial; 
+	font-size: 2em; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle8:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+#cercle9{
+    width: 350px; 
+	height: 350px; 
+	border-radius: 175px; 
+	background-image: url(bedoin.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	position: relative;
+	font-family: arial; 
+	font-size: 2em; 
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#cercle9:hover{
+   	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.offresm{
+	color: #FFF; 
+	font-size: -webkit-xxx-large; 
+}
+
+/*Icons*/ 
+
+i.ico{
+	color:#454545;
+}
+
+i.ico:hover{
+	color:#FF6767;
+}
+
+#icone{
+	font-family: arial;
+	font-size: 2em;
+	color:#F98787;
+}
+
+.grecei{
+	color: #FF3030; 
+    font-size: 4rem;
+}
+
+  
+
+.grecei:hover{
+	color: #FF6767; 
+}
+
+.grecei2{
+	color: #FF3030; 
+    font-size: 2rem;
+}
+
+.grecei2:hover{
+	color: #FF6767; 
+}
+
+
+/*footer*/
+
+ footer{
+	background-color: #333652;
+	color: #999;
+	padding-top: 2rem; 
+	padding-bottom: 1.5rem;	
+}
+
+footer a{
+	color: #999;
+	font-size: 2rem;
+	transition: all 0.2s ease-in-out;
+}
+
+footer a:hover{
+	color:#FBE769;
+	text-decoration: none; 
+}
+
+
+
+
+
+/*MediaQuery*/
+@media only screen and (max-width: 700px) {
+
+table, thead, tbody, tr, th, td {
+	display: block; 
+}
+
+td {
+	padding-left: 150px; 
+	position: relative;
+}
